@@ -16,6 +16,14 @@ endereco.pais = `Brasil`
 endereco.codigoPostal = `22220-000`
 cliente.endereco = endereco
 
+
+let novoTelefone = new Telefone();
+novoTelefone.ddd = "11";
+novoTelefone.numero = "99999-8888";
+cliente.telefones.push(novoTelefone)
+console.log(cliente.telefones)
+
+
 let dependente = new Cliente()
 dependente.nome = `Isabel Cristina Leopoldina Augusta Micaela`
 dependente.nomeSocial = `Princesa Isabel`
